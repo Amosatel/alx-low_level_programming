@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - copies the string pointed to by the source
+ * _strcpy - copies the string pointed to by the source
  * @dest: destination
  * @src: source
  * Return: string
@@ -9,7 +9,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int len + 0;
+	int len = 0;
 
 	while (*(src + len) != '\0')
 	{
@@ -19,3 +19,4 @@ char *_strcpy(char *dest, char *src)
 
 	*(dest + len) = '\0';
 	return (dest);
+}
